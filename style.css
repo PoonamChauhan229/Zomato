@@ -1,0 +1,144 @@
+
+body{
+    margin: auto;
+}
+/* Header */
+header{
+    height:40px;
+    background-color: #cb202d;
+}
+h1{
+    margin: 0;
+}
+#icon{
+    float: left;
+    height:30px;
+    
+}
+#social{
+    float: right;
+    margin: 0;
+}
+.slogo{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Search */
+#search{
+    background-image: url('./images/food-wallpaper.png');
+    height:400px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /*  background-size:width height*/
+    background-size: 100% 450px;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+}
+#container{
+    border: 1px solid black;
+    width:60%;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo{
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    margin: auto;
+}
+#logo >span{
+    position:absolute;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 80px;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.dropdown{
+    height:60px;
+    margin-top:5%;
+    margin-left:3%;
+    position:absolute;
+    background-color: #cb202d;
+    width: 94%;
+}
+select{
+    height:60px;
+    width: 40%;
+}
+.restSelect{
+    width: 59.4%;
+}
+
+/* <!--QuickSearch Section--> */
+#quickSearch{
+    border: 1px solid blue;
+    /* height:200px; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: inline-block;
+}
+#quickHeading{
+    display: block;
+    font-size: 30px;
+    color: #cb202d;
+    font-weight: bold;
+    margin-left: 2%;
+}
+#quickSubHeading{
+    display: block;
+    font-size: 20px;
+    color: gray;
+    margin-left: 2%;
+    line-height: 2;
+}
+.tilecontainer{
+    border:1px solid red;
+    box-shadow: 10px 20px 10px gray;
+
+    height:180px;
+    width:30%;
+    margin-top:2%;
+    margin-left:2%;
+    float: left;
+}
+
+.tileComponent1{
+    width: 50%;
+    /* border: 1px solid yellow; */
+    float: left;
+    height:180px;
+}
+.tileComponent1 >img{
+    width: 100%;
+    height:180px;
+}
+
+.tileComponent2{
+    width:45%;
+    margin-left:5%;
+    margin-top:15%;
+    float:left;
+}
+
+.componentHeading >a {
+    color:#f18c44;
+    font-size:25px;
+}
+.componentSubHeading{
+    color:gray;
+    font-size:20px;
+}
+
+
