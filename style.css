@@ -27,6 +27,7 @@ h1{
     padding-right: 5px;
 }
 
+
 /* Search */
 #search{
     background-image: url('./images/food-wallpaper.png');
@@ -65,16 +66,20 @@ h1{
     color: white;
 }
 .dropdown{
-    height:60px;
+    height:50px;
     margin-top:5%;
     margin-left:3%;
     position:absolute;
-    background-color: #cb202d;
+    /* background-color: #cb202d; */
     width: 94%;
 }
 select{
-    height:60px;
+    height:50px;
     width: 40%;
+    border-radius: 10px 10px 10px 10px;
+}
+option{
+    text-align: center;
 }
 .restSelect{
     width: 59.4%;
