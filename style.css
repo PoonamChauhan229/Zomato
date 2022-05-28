@@ -145,5 +145,23 @@ option{
     color:gray;
     font-size:20px;
 }
+.footerText{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+.footersubdiv{
+    float: left;
+    text-align: center;
+    width: 33.2%;
+    /* background-color: #cb202d; */
+    border-right: 1px solid black;
+}
+.noborder{
+    border:none;
+}
+
 
 
